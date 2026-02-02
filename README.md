@@ -1,6 +1,6 @@
 # ai-github-teaching-agent
 
-This project explores how AI-driven analytics can support computational teaching by analyzing GitHub repository activity. The goal is to help instructors identify patterns in student progress—such as steady work, inactivity, or potential struggle—based on commit behavior over time.
+This project explores how AI-driven analytics can support computational teaching by analyzing GitHub repository activity. The goal is to help instructors identify patterns in student progress, such as steady work, inactivity, or potential struggle—based on commit behavior over time.
 
 The project is developed as part of an independent study at the University of Minnesota.
 
