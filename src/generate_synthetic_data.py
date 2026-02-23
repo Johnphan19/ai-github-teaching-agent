@@ -1,11 +1,3 @@
-"""
-Synthetic Student Commit Data Generator
-
-This script generates realistic commit patterns for testing the GitHub monitoring agent.
-It simulates various student behaviors: consistent workers, procrastinators, 
-struggling students, inactive students, and collaborative teams.
-"""
-
 import json
 import random
 from datetime import datetime, timedelta
@@ -13,28 +5,13 @@ from typing import List, Dict
 import uuid
 
 class StudentCommitGenerator:
-    """Generates synthetic commit data mimicking real student behavior patterns."""
     
     def __init__(self, course_start_date: str, course_duration_weeks: int = 15):
-        """
-        Initialize the generator.
-        
-        Args:
-            course_start_date: Start date in 'YYYY-MM-DD' format
-            course_duration_weeks: Length of course in weeks
-        """
         self.start_date = datetime.strptime(course_start_date, '%Y-%m-%d')
         self.end_date = self.start_date + timedelta(weeks=course_duration_weeks)
         self.duration_days = (self.end_date - self.start_date).days
         
     def generate_commit_timestamp(self, day_offset: int, hour_preference: str = 'evening') -> str:
-        """
-        Generate a realistic commit timestamp.
-        
-        Args:
-            day_offset: Days from course start
-            hour_preference: 'morning', 'afternoon', 'evening', or 'late_night'
-        """
         commit_date = self.start_date + timedelta(days=day_offset)
         
         # Realistic hour distributions based on student work patterns
@@ -54,7 +31,6 @@ class StudentCommitGenerator:
         return commit_datetime.isoformat() + 'Z'
     
     def generate_commit_message(self, commit_type: str) -> str:
-        """Generate realistic commit messages."""
         messages = {
             'initial': [
                 'Initial commit',
@@ -103,12 +79,6 @@ class StudentCommitGenerator:
         return message_template
     
     def generate_file_changes(self, commit_size: str) -> Dict:
-        """
-        Generate file change statistics.
-        
-        Args:
-            commit_size: 'small', 'medium', 'large'
-        """
         size_ranges = {
             'small': (5, 30),
             'medium': (30, 100),
@@ -127,10 +97,6 @@ class StudentCommitGenerator:
         }
     
     def generate_consistent_student(self, student_id: str, repo_name: str) -> List[Dict]:
-        """
-        Generate commits for a consistently working student.
-        Pattern: Regular commits throughout the semester, 2-4 times per week.
-        """
         commits = []
         commit_days = []
         
@@ -167,10 +133,6 @@ class StudentCommitGenerator:
         return sorted(commits, key=lambda x: x['timestamp'])
     
     def generate_procrastinator_student(self, student_id: str, repo_name: str) -> List[Dict]:
-        """
-        Generate commits for a procrastinating student.
-        Pattern: Minimal activity early, burst of activity near deadlines.
-        """
         commits = []
         
         # Initial commit
@@ -201,10 +163,6 @@ class StudentCommitGenerator:
         return sorted(commits, key=lambda x: x['timestamp'])
     
     def generate_struggling_student(self, student_id: str, repo_name: str) -> List[Dict]:
-        """
-        Generate commits for a struggling student.
-        Pattern: Initial activity, then declining/erratic commits, small changes.
-        """
         commits = []
         
         # Good start
@@ -238,10 +196,6 @@ class StudentCommitGenerator:
         return sorted(commits, key=lambda x: x['timestamp'])
     
     def generate_inactive_student(self, student_id: str, repo_name: str) -> List[Dict]:
-        """
-        Generate commits for an inactive student.
-        Pattern: Very few commits, large gaps in activity.
-        """
         commits = []
         
         # Initial commit only
@@ -259,13 +213,8 @@ class StudentCommitGenerator:
         return sorted(commits, key=lambda x: x['timestamp'])
     
     def generate_team_project(self, team_members: List[str], repo_name: str) -> List[Dict]:
-        """
-        Generate commits for a team project with multiple contributors.
-        Pattern: Mixed contribution levels, some overlap in timing.
-        """
         all_commits = []
         
-        # Assign roles to team members
         roles = ['leader', 'contributor', 'minimal']
         member_roles = {}
         
@@ -303,7 +252,6 @@ class StudentCommitGenerator:
     
     def _create_commit(self, author: str, repo: str, day_offset: int, 
                       commit_type: str, commit_size: str, time_pref: str) -> Dict:
-        """Helper method to create a single commit object."""
         return {
             'commit_id': str(uuid.uuid4())[:8],
             'repository': repo,
@@ -316,13 +264,6 @@ class StudentCommitGenerator:
     
     def generate_course_dataset(self, num_students: int = 50, 
                                num_teams: int = 5) -> Dict:
-        """
-        Generate a complete course dataset with various student patterns.
-        
-        Args:
-            num_students: Number of individual student projects
-            num_teams: Number of team projects
-        """
         dataset = {
             'course_info': {
                 'start_date': self.start_date.isoformat(),
@@ -387,7 +328,6 @@ class StudentCommitGenerator:
 
 
 def main():
-    """Generate and save synthetic dataset."""
     print("Generating synthetic student commit data...")
     
     # Initialize generator for a typical semester
@@ -414,7 +354,6 @@ def main():
     print(f"  - Total commits: {sum(p['total_commits'] for p in dataset['individual_projects'])} (individual)")
     print(f"                  + {sum(p['total_commits'] for p in dataset['team_projects'])} (team)")
     
-    # Print pattern distribution
     print("\n  Pattern distribution:")
     for pattern in ['consistent', 'procrastinator', 'struggling', 'inactive']:
         count = sum(1 for p in dataset['individual_projects'] if p['pattern_type'] == pattern)
