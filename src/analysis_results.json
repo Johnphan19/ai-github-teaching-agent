@@ -1,0 +1,4261 @@
+{
+  "course_info": {
+    "start_date": "2025-01-15T00:00:00",
+    "end_date": "2025-04-30T00:00:00",
+    "duration_weeks": 15,
+    "generated_at": "2026-02-23T12:51:25.789984"
+  },
+  "analysis_date": "2026-02-23T15:36:16.425757",
+  "summary": {
+    "total_students": 49,
+    "total_teams": 5,
+    "students_needing_attention": 30,
+    "severity_breakdown": {
+      "high": 29,
+      "medium": 1,
+      "low": 4,
+      "none": 15
+    },
+    "most_common_flags": {
+      "inactivity": 29,
+      "irregular_pattern": 29,
+      "minimal_progress": 22,
+      "burnout_risk": 19,
+      "procrastination": 13
+    }
+  },
+  "individual_analyses": [
+    {
+      "student_id": "student_000",
+      "repository": "student_000_project",
+      "analysis_date": "2026-02-23T15:36:16.419340",
+      "total_commits": 37,
+      "flags": [],
+      "severity": "none",
+      "recommendations": [
+        "\u2705 Student shows healthy work patterns - continue monitoring"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "consistent",
+          "consistency_score": 0.99,
+          "average_days_between_commits": 2.3,
+          "longest_gap_days": 4,
+          "total_commits": 37
+        },
+        "commit_quality": {
+          "average_commit_size": 53.2,
+          "small_commits": 19,
+          "medium_commits": 18,
+          "large_commits": 0,
+          "small_commit_ratio": 0.51,
+          "quality_score": 0.8,
+          "message_quality_ratio": 0.81
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.05,
+          "time_distribution": {
+            "late_night": 2,
+            "morning": 0,
+            "afternoon": 18,
+            "evening": 17
+          },
+          "procrastination_indicator": 0.32,
+          "final_third_commits": 12
+        },
+        "progress_tracking": {
+          "active_weeks": 15,
+          "active_weeks_ratio": 1.0,
+          "weekly_breakdown": {
+            "0": 2,
+            "1": 3,
+            "2": 3,
+            "3": 2,
+            "4": 2,
+            "5": 4,
+            "6": 2,
+            "7": 3,
+            "8": 2,
+            "9": 2,
+            "10": 3,
+            "11": 3,
+            "12": 2,
+            "13": 2,
+            "14": 2
+          },
+          "trend": "stable",
+          "average_commits_per_week": 2.5
+        }
+      }
+    },
+    {
+      "student_id": "student_001",
+      "repository": "student_001_project",
+      "analysis_date": "2026-02-23T15:36:16.419340",
+      "total_commits": 38,
+      "flags": [],
+      "severity": "none",
+      "recommendations": [
+        "\u2705 Student shows healthy work patterns - continue monitoring"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "consistent",
+          "consistency_score": 0.99,
+          "average_days_between_commits": 2.2,
+          "longest_gap_days": 4,
+          "total_commits": 38
+        },
+        "commit_quality": {
+          "average_commit_size": 48.8,
+          "small_commits": 25,
+          "medium_commits": 13,
+          "large_commits": 0,
+          "small_commit_ratio": 0.66,
+          "quality_score": 0.7,
+          "message_quality_ratio": 0.76
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.13,
+          "time_distribution": {
+            "late_night": 5,
+            "morning": 1,
+            "afternoon": 19,
+            "evening": 13
+          },
+          "procrastination_indicator": 0.29,
+          "final_third_commits": 11
+        },
+        "progress_tracking": {
+          "active_weeks": 15,
+          "active_weeks_ratio": 1.0,
+          "weekly_breakdown": {
+            "0": 2,
+            "1": 3,
+            "2": 3,
+            "3": 3,
+            "4": 3,
+            "5": 2,
+            "6": 4,
+            "7": 2,
+            "8": 3,
+            "9": 2,
+            "10": 2,
+            "11": 3,
+            "12": 2,
+            "13": 2,
+            "14": 2
+          },
+          "trend": "stable",
+          "average_commits_per_week": 2.5
+        }
+      }
+    },
+    {
+      "student_id": "student_002",
+      "repository": "student_002_project",
+      "analysis_date": "2026-02-23T15:36:16.419340",
+      "total_commits": 40,
+      "flags": [],
+      "severity": "none",
+      "recommendations": [
+        "\u2705 Student shows healthy work patterns - continue monitoring"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "consistent",
+          "consistency_score": 0.99,
+          "average_days_between_commits": 2.2,
+          "longest_gap_days": 4,
+          "total_commits": 40
+        },
+        "commit_quality": {
+          "average_commit_size": 51.6,
+          "small_commits": 18,
+          "medium_commits": 22,
+          "large_commits": 0,
+          "small_commit_ratio": 0.45,
+          "quality_score": 0.8,
+          "message_quality_ratio": 0.8
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.05,
+          "time_distribution": {
+            "late_night": 2,
+            "morning": 1,
+            "afternoon": 21,
+            "evening": 16
+          },
+          "procrastination_indicator": 0.33,
+          "final_third_commits": 13
+        },
+        "progress_tracking": {
+          "active_weeks": 15,
+          "active_weeks_ratio": 1.0,
+          "weekly_breakdown": {
+            "0": 3,
+            "1": 2,
+            "2": 2,
+            "3": 3,
+            "4": 2,
+            "5": 3,
+            "6": 3,
+            "7": 3,
+            "8": 4,
+            "9": 2,
+            "10": 3,
+            "11": 3,
+            "12": 3,
+            "13": 2,
+            "14": 2
+          },
+          "trend": "stable",
+          "average_commits_per_week": 2.7
+        }
+      }
+    },
+    {
+      "student_id": "student_003",
+      "repository": "student_003_project",
+      "analysis_date": "2026-02-23T15:36:16.420046",
+      "total_commits": 35,
+      "flags": [],
+      "severity": "none",
+      "recommendations": [
+        "\u2705 Student shows healthy work patterns - continue monitoring"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "consistent",
+          "consistency_score": 0.99,
+          "average_days_between_commits": 2.6,
+          "longest_gap_days": 4,
+          "total_commits": 35
+        },
+        "commit_quality": {
+          "average_commit_size": 48.5,
+          "small_commits": 21,
+          "medium_commits": 14,
+          "large_commits": 0,
+          "small_commit_ratio": 0.6,
+          "quality_score": 0.8,
+          "message_quality_ratio": 0.77
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.17,
+          "time_distribution": {
+            "late_night": 6,
+            "morning": 1,
+            "afternoon": 15,
+            "evening": 13
+          },
+          "procrastination_indicator": 0.31,
+          "final_third_commits": 11
+        },
+        "progress_tracking": {
+          "active_weeks": 15,
+          "active_weeks_ratio": 1.0,
+          "weekly_breakdown": {
+            "0": 3,
+            "1": 2,
+            "2": 3,
+            "3": 2,
+            "4": 3,
+            "5": 3,
+            "6": 1,
+            "7": 2,
+            "8": 3,
+            "9": 2,
+            "10": 3,
+            "11": 2,
+            "12": 2,
+            "13": 2,
+            "14": 2
+          },
+          "trend": "stable",
+          "average_commits_per_week": 2.3
+        }
+      }
+    },
+    {
+      "student_id": "student_004",
+      "repository": "student_004_project",
+      "analysis_date": "2026-02-23T15:36:16.420046",
+      "total_commits": 40,
+      "flags": [],
+      "severity": "none",
+      "recommendations": [
+        "\u2705 Student shows healthy work patterns - continue monitoring"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "consistent",
+          "consistency_score": 0.99,
+          "average_days_between_commits": 2.2,
+          "longest_gap_days": 4,
+          "total_commits": 40
+        },
+        "commit_quality": {
+          "average_commit_size": 56.1,
+          "small_commits": 19,
+          "medium_commits": 21,
+          "large_commits": 0,
+          "small_commit_ratio": 0.47,
+          "quality_score": 0.8,
+          "message_quality_ratio": 0.72
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.03,
+          "time_distribution": {
+            "late_night": 1,
+            "morning": 1,
+            "afternoon": 17,
+            "evening": 21
+          },
+          "procrastination_indicator": 0.35,
+          "final_third_commits": 14
+        },
+        "progress_tracking": {
+          "active_weeks": 15,
+          "active_weeks_ratio": 1.0,
+          "weekly_breakdown": {
+            "0": 4,
+            "1": 3,
+            "2": 3,
+            "3": 3,
+            "4": 2,
+            "5": 3,
+            "6": 2,
+            "7": 2,
+            "8": 2,
+            "9": 2,
+            "10": 3,
+            "11": 3,
+            "12": 2,
+            "13": 3,
+            "14": 3
+          },
+          "trend": "stable",
+          "average_commits_per_week": 2.7
+        }
+      }
+    },
+    {
+      "student_id": "student_005",
+      "repository": "student_005_project",
+      "analysis_date": "2026-02-23T15:36:16.420046",
+      "total_commits": 39,
+      "flags": [],
+      "severity": "none",
+      "recommendations": [
+        "\u2705 Student shows healthy work patterns - continue monitoring"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "consistent",
+          "consistency_score": 0.99,
+          "average_days_between_commits": 2.3,
+          "longest_gap_days": 4,
+          "total_commits": 39
+        },
+        "commit_quality": {
+          "average_commit_size": 51.6,
+          "small_commits": 25,
+          "medium_commits": 14,
+          "large_commits": 0,
+          "small_commit_ratio": 0.64,
+          "quality_score": 0.7,
+          "message_quality_ratio": 0.85
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.15,
+          "time_distribution": {
+            "late_night": 6,
+            "morning": 1,
+            "afternoon": 11,
+            "evening": 21
+          },
+          "procrastination_indicator": 0.36,
+          "final_third_commits": 14
+        },
+        "progress_tracking": {
+          "active_weeks": 15,
+          "active_weeks_ratio": 1.0,
+          "weekly_breakdown": {
+            "0": 4,
+            "1": 2,
+            "2": 3,
+            "3": 3,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 3,
+            "8": 2,
+            "9": 2,
+            "10": 2,
+            "11": 4,
+            "12": 3,
+            "13": 3,
+            "14": 2
+          },
+          "trend": "stable",
+          "average_commits_per_week": 2.6
+        }
+      }
+    },
+    {
+      "student_id": "student_006",
+      "repository": "student_006_project",
+      "analysis_date": "2026-02-23T15:36:16.420046",
+      "total_commits": 38,
+      "flags": [
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "74% of commits are very small",
+          "metric_value": 0.74
+        }
+      ],
+      "severity": "low",
+      "recommendations": [
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "consistent",
+          "consistency_score": 0.99,
+          "average_days_between_commits": 2.3,
+          "longest_gap_days": 4,
+          "total_commits": 38
+        },
+        "commit_quality": {
+          "average_commit_size": 45.9,
+          "small_commits": 28,
+          "medium_commits": 10,
+          "large_commits": 0,
+          "small_commit_ratio": 0.74,
+          "quality_score": 0.7,
+          "message_quality_ratio": 0.87
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.08,
+          "time_distribution": {
+            "late_night": 3,
+            "morning": 1,
+            "afternoon": 20,
+            "evening": 14
+          },
+          "procrastination_indicator": 0.34,
+          "final_third_commits": 13
+        },
+        "progress_tracking": {
+          "active_weeks": 15,
+          "active_weeks_ratio": 1.0,
+          "weekly_breakdown": {
+            "0": 4,
+            "1": 2,
+            "2": 3,
+            "3": 2,
+            "4": 3,
+            "5": 2,
+            "6": 2,
+            "7": 3,
+            "8": 2,
+            "9": 2,
+            "10": 3,
+            "11": 2,
+            "12": 2,
+            "13": 2,
+            "14": 4
+          },
+          "trend": "stable",
+          "average_commits_per_week": 2.5
+        }
+      }
+    },
+    {
+      "student_id": "student_007",
+      "repository": "student_007_project",
+      "analysis_date": "2026-02-23T15:36:16.420806",
+      "total_commits": 39,
+      "flags": [],
+      "severity": "none",
+      "recommendations": [
+        "\u2705 Student shows healthy work patterns - continue monitoring"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "consistent",
+          "consistency_score": 0.99,
+          "average_days_between_commits": 2.2,
+          "longest_gap_days": 4,
+          "total_commits": 39
+        },
+        "commit_quality": {
+          "average_commit_size": 53.2,
+          "small_commits": 18,
+          "medium_commits": 21,
+          "large_commits": 0,
+          "small_commit_ratio": 0.46,
+          "quality_score": 0.8,
+          "message_quality_ratio": 0.82
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.1,
+          "time_distribution": {
+            "late_night": 4,
+            "morning": 1,
+            "afternoon": 17,
+            "evening": 17
+          },
+          "procrastination_indicator": 0.33,
+          "final_third_commits": 13
+        },
+        "progress_tracking": {
+          "active_weeks": 15,
+          "active_weeks_ratio": 1.0,
+          "weekly_breakdown": {
+            "0": 3,
+            "1": 3,
+            "2": 2,
+            "3": 3,
+            "4": 2,
+            "5": 3,
+            "6": 3,
+            "7": 2,
+            "8": 2,
+            "9": 3,
+            "10": 4,
+            "11": 3,
+            "12": 2,
+            "13": 2,
+            "14": 2
+          },
+          "trend": "stable",
+          "average_commits_per_week": 2.6
+        }
+      }
+    },
+    {
+      "student_id": "student_008",
+      "repository": "student_008_project",
+      "analysis_date": "2026-02-23T15:36:16.420806",
+      "total_commits": 37,
+      "flags": [],
+      "severity": "none",
+      "recommendations": [
+        "\u2705 Student shows healthy work patterns - continue monitoring"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "consistent",
+          "consistency_score": 0.99,
+          "average_days_between_commits": 2.3,
+          "longest_gap_days": 4,
+          "total_commits": 37
+        },
+        "commit_quality": {
+          "average_commit_size": 50.7,
+          "small_commits": 23,
+          "medium_commits": 14,
+          "large_commits": 0,
+          "small_commit_ratio": 0.62,
+          "quality_score": 0.7,
+          "message_quality_ratio": 0.84
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.08,
+          "time_distribution": {
+            "late_night": 3,
+            "morning": 1,
+            "afternoon": 17,
+            "evening": 16
+          },
+          "procrastination_indicator": 0.35,
+          "final_third_commits": 13
+        },
+        "progress_tracking": {
+          "active_weeks": 15,
+          "active_weeks_ratio": 1.0,
+          "weekly_breakdown": {
+            "0": 3,
+            "1": 2,
+            "2": 2,
+            "3": 1,
+            "4": 3,
+            "5": 3,
+            "6": 2,
+            "7": 2,
+            "8": 2,
+            "9": 4,
+            "10": 3,
+            "11": 2,
+            "12": 3,
+            "13": 2,
+            "14": 3
+          },
+          "trend": "stable",
+          "average_commits_per_week": 2.5
+        }
+      }
+    },
+    {
+      "student_id": "student_009",
+      "repository": "student_009_project",
+      "analysis_date": "2026-02-23T15:36:16.420806",
+      "total_commits": 38,
+      "flags": [],
+      "severity": "none",
+      "recommendations": [
+        "\u2705 Student shows healthy work patterns - continue monitoring"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "consistent",
+          "consistency_score": 0.99,
+          "average_days_between_commits": 2.3,
+          "longest_gap_days": 4,
+          "total_commits": 38
+        },
+        "commit_quality": {
+          "average_commit_size": 45.0,
+          "small_commits": 25,
+          "medium_commits": 13,
+          "large_commits": 0,
+          "small_commit_ratio": 0.66,
+          "quality_score": 0.7,
+          "message_quality_ratio": 0.89
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.16,
+          "time_distribution": {
+            "late_night": 6,
+            "morning": 1,
+            "afternoon": 19,
+            "evening": 12
+          },
+          "procrastination_indicator": 0.34,
+          "final_third_commits": 13
+        },
+        "progress_tracking": {
+          "active_weeks": 15,
+          "active_weeks_ratio": 1.0,
+          "weekly_breakdown": {
+            "0": 4,
+            "1": 3,
+            "2": 2,
+            "3": 3,
+            "4": 2,
+            "5": 2,
+            "6": 3,
+            "7": 2,
+            "8": 2,
+            "9": 2,
+            "10": 3,
+            "11": 2,
+            "12": 3,
+            "13": 2,
+            "14": 3
+          },
+          "trend": "stable",
+          "average_commits_per_week": 2.5
+        }
+      }
+    },
+    {
+      "student_id": "student_010",
+      "repository": "student_010_project",
+      "analysis_date": "2026-02-23T15:36:16.421338",
+      "total_commits": 38,
+      "flags": [],
+      "severity": "none",
+      "recommendations": [
+        "\u2705 Student shows healthy work patterns - continue monitoring"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "consistent",
+          "consistency_score": 0.99,
+          "average_days_between_commits": 2.3,
+          "longest_gap_days": 4,
+          "total_commits": 38
+        },
+        "commit_quality": {
+          "average_commit_size": 56.5,
+          "small_commits": 21,
+          "medium_commits": 17,
+          "large_commits": 0,
+          "small_commit_ratio": 0.55,
+          "quality_score": 0.8,
+          "message_quality_ratio": 0.76
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.08,
+          "time_distribution": {
+            "late_night": 3,
+            "morning": 1,
+            "afternoon": 13,
+            "evening": 21
+          },
+          "procrastination_indicator": 0.32,
+          "final_third_commits": 12
+        },
+        "progress_tracking": {
+          "active_weeks": 15,
+          "active_weeks_ratio": 1.0,
+          "weekly_breakdown": {
+            "0": 3,
+            "1": 1,
+            "2": 2,
+            "3": 5,
+            "4": 3,
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 4,
+            "9": 2,
+            "10": 2,
+            "11": 3,
+            "12": 2,
+            "13": 2,
+            "14": 3
+          },
+          "trend": "stable",
+          "average_commits_per_week": 2.5
+        }
+      }
+    },
+    {
+      "student_id": "student_011",
+      "repository": "student_011_project",
+      "analysis_date": "2026-02-23T15:36:16.421338",
+      "total_commits": 41,
+      "flags": [],
+      "severity": "none",
+      "recommendations": [
+        "\u2705 Student shows healthy work patterns - continue monitoring"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "consistent",
+          "consistency_score": 0.99,
+          "average_days_between_commits": 2.1,
+          "longest_gap_days": 4,
+          "total_commits": 41
+        },
+        "commit_quality": {
+          "average_commit_size": 48.1,
+          "small_commits": 24,
+          "medium_commits": 17,
+          "large_commits": 0,
+          "small_commit_ratio": 0.59,
+          "quality_score": 0.8,
+          "message_quality_ratio": 0.83
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.1,
+          "time_distribution": {
+            "late_night": 4,
+            "morning": 1,
+            "afternoon": 18,
+            "evening": 18
+          },
+          "procrastination_indicator": 0.24,
+          "final_third_commits": 10
+        },
+        "progress_tracking": {
+          "active_weeks": 15,
+          "active_weeks_ratio": 1.0,
+          "weekly_breakdown": {
+            "0": 3,
+            "1": 3,
+            "2": 3,
+            "3": 3,
+            "4": 2,
+            "5": 5,
+            "6": 3,
+            "7": 4,
+            "8": 2,
+            "9": 3,
+            "10": 2,
+            "11": 2,
+            "12": 3,
+            "13": 2,
+            "14": 1
+          },
+          "trend": "stable",
+          "average_commits_per_week": 2.7
+        }
+      }
+    },
+    {
+      "student_id": "student_012",
+      "repository": "student_012_project",
+      "analysis_date": "2026-02-23T15:36:16.421338",
+      "total_commits": 41,
+      "flags": [],
+      "severity": "none",
+      "recommendations": [
+        "\u2705 Student shows healthy work patterns - continue monitoring"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "consistent",
+          "consistency_score": 0.99,
+          "average_days_between_commits": 2.1,
+          "longest_gap_days": 4,
+          "total_commits": 41
+        },
+        "commit_quality": {
+          "average_commit_size": 43.7,
+          "small_commits": 26,
+          "medium_commits": 15,
+          "large_commits": 0,
+          "small_commit_ratio": 0.63,
+          "quality_score": 0.7,
+          "message_quality_ratio": 0.8
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.12,
+          "time_distribution": {
+            "late_night": 5,
+            "morning": 0,
+            "afternoon": 19,
+            "evening": 17
+          },
+          "procrastination_indicator": 0.39,
+          "final_third_commits": 16
+        },
+        "progress_tracking": {
+          "active_weeks": 15,
+          "active_weeks_ratio": 1.0,
+          "weekly_breakdown": {
+            "0": 3,
+            "1": 2,
+            "2": 4,
+            "3": 2,
+            "4": 3,
+            "5": 1,
+            "6": 2,
+            "7": 3,
+            "8": 3,
+            "9": 2,
+            "10": 3,
+            "11": 3,
+            "12": 3,
+            "13": 3,
+            "14": 4
+          },
+          "trend": "stable",
+          "average_commits_per_week": 2.7
+        }
+      }
+    },
+    {
+      "student_id": "student_013",
+      "repository": "student_013_project",
+      "analysis_date": "2026-02-23T15:36:16.421338",
+      "total_commits": 38,
+      "flags": [
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "71% of commits are very small",
+          "metric_value": 0.71
+        }
+      ],
+      "severity": "low",
+      "recommendations": [
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "consistent",
+          "consistency_score": 0.99,
+          "average_days_between_commits": 2.3,
+          "longest_gap_days": 4,
+          "total_commits": 38
+        },
+        "commit_quality": {
+          "average_commit_size": 44.4,
+          "small_commits": 27,
+          "medium_commits": 11,
+          "large_commits": 0,
+          "small_commit_ratio": 0.71,
+          "quality_score": 0.7,
+          "message_quality_ratio": 0.82
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.11,
+          "time_distribution": {
+            "late_night": 4,
+            "morning": 0,
+            "afternoon": 19,
+            "evening": 15
+          },
+          "procrastination_indicator": 0.29,
+          "final_third_commits": 11
+        },
+        "progress_tracking": {
+          "active_weeks": 15,
+          "active_weeks_ratio": 1.0,
+          "weekly_breakdown": {
+            "0": 3,
+            "1": 2,
+            "2": 3,
+            "3": 4,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 3,
+            "8": 3,
+            "9": 3,
+            "10": 2,
+            "11": 2,
+            "12": 2,
+            "13": 3,
+            "14": 2
+          },
+          "trend": "stable",
+          "average_commits_per_week": 2.5
+        }
+      }
+    },
+    {
+      "student_id": "student_014",
+      "repository": "student_014_project",
+      "analysis_date": "2026-02-23T15:36:16.421338",
+      "total_commits": 37,
+      "flags": [],
+      "severity": "none",
+      "recommendations": [
+        "\u2705 Student shows healthy work patterns - continue monitoring"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "consistent",
+          "consistency_score": 0.99,
+          "average_days_between_commits": 2.4,
+          "longest_gap_days": 4,
+          "total_commits": 37
+        },
+        "commit_quality": {
+          "average_commit_size": 41.3,
+          "small_commits": 26,
+          "medium_commits": 11,
+          "large_commits": 0,
+          "small_commit_ratio": 0.7,
+          "quality_score": 0.7,
+          "message_quality_ratio": 0.84
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.05,
+          "time_distribution": {
+            "late_night": 2,
+            "morning": 1,
+            "afternoon": 16,
+            "evening": 18
+          },
+          "procrastination_indicator": 0.32,
+          "final_third_commits": 12
+        },
+        "progress_tracking": {
+          "active_weeks": 15,
+          "active_weeks_ratio": 1.0,
+          "weekly_breakdown": {
+            "0": 4,
+            "1": 3,
+            "2": 2,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "6": 3,
+            "7": 3,
+            "8": 1,
+            "9": 3,
+            "10": 2,
+            "11": 3,
+            "12": 2,
+            "13": 3,
+            "14": 2
+          },
+          "trend": "stable",
+          "average_commits_per_week": 2.5
+        }
+      }
+    },
+    {
+      "student_id": "student_015",
+      "repository": "student_015_project",
+      "analysis_date": "2026-02-23T15:36:16.421338",
+      "total_commits": 39,
+      "flags": [],
+      "severity": "none",
+      "recommendations": [
+        "\u2705 Student shows healthy work patterns - continue monitoring"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "consistent",
+          "consistency_score": 0.98,
+          "average_days_between_commits": 2.2,
+          "longest_gap_days": 4,
+          "total_commits": 39
+        },
+        "commit_quality": {
+          "average_commit_size": 50.5,
+          "small_commits": 21,
+          "medium_commits": 18,
+          "large_commits": 0,
+          "small_commit_ratio": 0.54,
+          "quality_score": 0.8,
+          "message_quality_ratio": 0.92
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.13,
+          "time_distribution": {
+            "late_night": 5,
+            "morning": 1,
+            "afternoon": 19,
+            "evening": 14
+          },
+          "procrastination_indicator": 0.36,
+          "final_third_commits": 14
+        },
+        "progress_tracking": {
+          "active_weeks": 15,
+          "active_weeks_ratio": 1.0,
+          "weekly_breakdown": {
+            "0": 2,
+            "1": 4,
+            "2": 2,
+            "3": 3,
+            "4": 1,
+            "5": 3,
+            "6": 2,
+            "7": 3,
+            "8": 2,
+            "9": 3,
+            "10": 2,
+            "11": 3,
+            "12": 3,
+            "13": 4,
+            "14": 2
+          },
+          "trend": "stable",
+          "average_commits_per_week": 2.6
+        }
+      }
+    },
+    {
+      "student_id": "student_016",
+      "repository": "student_016_project",
+      "analysis_date": "2026-02-23T15:36:16.421338",
+      "total_commits": 39,
+      "flags": [],
+      "severity": "none",
+      "recommendations": [
+        "\u2705 Student shows healthy work patterns - continue monitoring"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "consistent",
+          "consistency_score": 0.99,
+          "average_days_between_commits": 2.3,
+          "longest_gap_days": 4,
+          "total_commits": 39
+        },
+        "commit_quality": {
+          "average_commit_size": 55.8,
+          "small_commits": 18,
+          "medium_commits": 21,
+          "large_commits": 0,
+          "small_commit_ratio": 0.46,
+          "quality_score": 0.8,
+          "message_quality_ratio": 0.82
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.15,
+          "time_distribution": {
+            "late_night": 6,
+            "morning": 0,
+            "afternoon": 20,
+            "evening": 13
+          },
+          "procrastination_indicator": 0.33,
+          "final_third_commits": 13
+        },
+        "progress_tracking": {
+          "active_weeks": 15,
+          "active_weeks_ratio": 1.0,
+          "weekly_breakdown": {
+            "0": 2,
+            "1": 3,
+            "2": 3,
+            "3": 2,
+            "4": 3,
+            "5": 2,
+            "6": 2,
+            "7": 2,
+            "8": 2,
+            "9": 5,
+            "10": 4,
+            "11": 2,
+            "12": 2,
+            "13": 2,
+            "14": 3
+          },
+          "trend": "stable",
+          "average_commits_per_week": 2.6
+        }
+      }
+    },
+    {
+      "student_id": "student_017",
+      "repository": "student_017_project",
+      "analysis_date": "2026-02-23T15:36:16.422389",
+      "total_commits": 22,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 24 days",
+          "metric_value": 24
+        },
+        {
+          "type": "procrastination",
+          "severity": "medium",
+          "description": "73% of commits in final third of course",
+          "metric_value": 0.73
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "68% of commits between 11pm-6am",
+          "metric_value": 0.68
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.72
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.72,
+          "average_days_between_commits": 4.1,
+          "longest_gap_days": 24,
+          "total_commits": 22
+        },
+        "commit_quality": {
+          "average_commit_size": 198.5,
+          "small_commits": 7,
+          "medium_commits": 8,
+          "large_commits": 7,
+          "small_commit_ratio": 0.32,
+          "quality_score": 0.8,
+          "message_quality_ratio": 0.68
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.68,
+          "time_distribution": {
+            "late_night": 15,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 7
+          },
+          "procrastination_indicator": 0.73,
+          "final_third_commits": 16
+        },
+        "progress_tracking": {
+          "active_weeks": 10,
+          "active_weeks_ratio": 0.67,
+          "weekly_breakdown": {
+            "0": 1,
+            "1": 1,
+            "4": 1,
+            "5": 2,
+            "8": 1,
+            "10": 3,
+            "11": 5,
+            "12": 2,
+            "13": 4,
+            "14": 2
+          },
+          "trend": "increasing",
+          "average_commits_per_week": 1.5
+        }
+      }
+    },
+    {
+      "student_id": "student_018",
+      "repository": "student_018_project",
+      "analysis_date": "2026-02-23T15:36:16.422389",
+      "total_commits": 26,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 26 days",
+          "metric_value": 26
+        },
+        {
+          "type": "procrastination",
+          "severity": "medium",
+          "description": "73% of commits in final third of course",
+          "metric_value": 0.73
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "69% of commits between 11pm-6am",
+          "metric_value": 0.69
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.73
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.73,
+          "average_days_between_commits": 3.6,
+          "longest_gap_days": 26,
+          "total_commits": 26
+        },
+        "commit_quality": {
+          "average_commit_size": 205.6,
+          "small_commits": 8,
+          "medium_commits": 6,
+          "large_commits": 12,
+          "small_commit_ratio": 0.31,
+          "quality_score": 0.8,
+          "message_quality_ratio": 0.73
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.69,
+          "time_distribution": {
+            "late_night": 18,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 8
+          },
+          "procrastination_indicator": 0.73,
+          "final_third_commits": 19
+        },
+        "progress_tracking": {
+          "active_weeks": 10,
+          "active_weeks_ratio": 0.67,
+          "weekly_breakdown": {
+            "0": 1,
+            "4": 2,
+            "5": 1,
+            "6": 1,
+            "9": 2,
+            "10": 3,
+            "11": 4,
+            "12": 4,
+            "13": 5,
+            "14": 3
+          },
+          "trend": "increasing",
+          "average_commits_per_week": 1.7
+        }
+      }
+    },
+    {
+      "student_id": "student_019",
+      "repository": "student_019_project",
+      "analysis_date": "2026-02-23T15:36:16.422389",
+      "total_commits": 25,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 21 days",
+          "metric_value": 21
+        },
+        {
+          "type": "procrastination",
+          "severity": "medium",
+          "description": "80% of commits in final third of course",
+          "metric_value": 0.8
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "72% of commits between 11pm-6am",
+          "metric_value": 0.72
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.75
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.75,
+          "average_days_between_commits": 3.8,
+          "longest_gap_days": 21,
+          "total_commits": 25
+        },
+        "commit_quality": {
+          "average_commit_size": 159.6,
+          "small_commits": 8,
+          "medium_commits": 9,
+          "large_commits": 8,
+          "small_commit_ratio": 0.32,
+          "quality_score": 0.8,
+          "message_quality_ratio": 0.88
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.72,
+          "time_distribution": {
+            "late_night": 18,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 7
+          },
+          "procrastination_indicator": 0.8,
+          "final_third_commits": 20
+        },
+        "progress_tracking": {
+          "active_weeks": 10,
+          "active_weeks_ratio": 0.67,
+          "weekly_breakdown": {
+            "0": 1,
+            "2": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "10": 1,
+            "11": 5,
+            "12": 7,
+            "13": 4,
+            "14": 3
+          },
+          "trend": "increasing",
+          "average_commits_per_week": 1.7
+        }
+      }
+    },
+    {
+      "student_id": "student_020",
+      "repository": "student_020_project",
+      "analysis_date": "2026-02-23T15:36:16.422389",
+      "total_commits": 22,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 19 days",
+          "metric_value": 19
+        },
+        {
+          "type": "procrastination",
+          "severity": "medium",
+          "description": "77% of commits in final third of course",
+          "metric_value": 0.77
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "59% of commits between 11pm-6am",
+          "metric_value": 0.59
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.78
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.78,
+          "average_days_between_commits": 4.2,
+          "longest_gap_days": 19,
+          "total_commits": 22
+        },
+        "commit_quality": {
+          "average_commit_size": 202.1,
+          "small_commits": 6,
+          "medium_commits": 5,
+          "large_commits": 11,
+          "small_commit_ratio": 0.27,
+          "quality_score": 0.7,
+          "message_quality_ratio": 0.64
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.59,
+          "time_distribution": {
+            "late_night": 13,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 9
+          },
+          "procrastination_indicator": 0.77,
+          "final_third_commits": 17
+        },
+        "progress_tracking": {
+          "active_weeks": 10,
+          "active_weeks_ratio": 0.67,
+          "weekly_breakdown": {
+            "0": 1,
+            "3": 1,
+            "5": 1,
+            "7": 1,
+            "8": 1,
+            "10": 4,
+            "11": 2,
+            "12": 2,
+            "13": 5,
+            "14": 4
+          },
+          "trend": "increasing",
+          "average_commits_per_week": 1.5
+        }
+      }
+    },
+    {
+      "student_id": "student_021",
+      "repository": "student_021_project",
+      "analysis_date": "2026-02-23T15:36:16.422389",
+      "total_commits": 20,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 33 days",
+          "metric_value": 33
+        },
+        {
+          "type": "procrastination",
+          "severity": "medium",
+          "description": "80% of commits in final third of course",
+          "metric_value": 0.8
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "75% of commits between 11pm-6am",
+          "metric_value": 0.75
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.54
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.54,
+          "average_days_between_commits": 4.6,
+          "longest_gap_days": 33,
+          "total_commits": 20
+        },
+        "commit_quality": {
+          "average_commit_size": 229.4,
+          "small_commits": 6,
+          "medium_commits": 4,
+          "large_commits": 10,
+          "small_commit_ratio": 0.3,
+          "quality_score": 0.8,
+          "message_quality_ratio": 0.75
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.75,
+          "time_distribution": {
+            "late_night": 15,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 5
+          },
+          "procrastination_indicator": 0.8,
+          "final_third_commits": 16
+        },
+        "progress_tracking": {
+          "active_weeks": 8,
+          "active_weeks_ratio": 0.53,
+          "weekly_breakdown": {
+            "1": 1,
+            "5": 2,
+            "9": 1,
+            "10": 2,
+            "11": 4,
+            "12": 6,
+            "13": 2,
+            "14": 2
+          },
+          "trend": "increasing",
+          "average_commits_per_week": 1.3
+        }
+      }
+    },
+    {
+      "student_id": "student_022",
+      "repository": "student_022_project",
+      "analysis_date": "2026-02-23T15:36:16.422389",
+      "total_commits": 26,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 34 days",
+          "metric_value": 34
+        },
+        {
+          "type": "procrastination",
+          "severity": "medium",
+          "description": "88% of commits in final third of course",
+          "metric_value": 0.88
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.64
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.64,
+          "average_days_between_commits": 3.3,
+          "longest_gap_days": 34,
+          "total_commits": 26
+        },
+        "commit_quality": {
+          "average_commit_size": 202.1,
+          "small_commits": 4,
+          "medium_commits": 9,
+          "large_commits": 13,
+          "small_commit_ratio": 0.15,
+          "quality_score": 0.7,
+          "message_quality_ratio": 0.69
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.46,
+          "time_distribution": {
+            "late_night": 12,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 14
+          },
+          "procrastination_indicator": 0.88,
+          "final_third_commits": 23
+        },
+        "progress_tracking": {
+          "active_weeks": 8,
+          "active_weeks_ratio": 0.53,
+          "weekly_breakdown": {
+            "1": 1,
+            "3": 1,
+            "5": 1,
+            "10": 4,
+            "11": 4,
+            "12": 6,
+            "13": 3,
+            "14": 6
+          },
+          "trend": "increasing",
+          "average_commits_per_week": 1.7
+        }
+      }
+    },
+    {
+      "student_id": "student_023",
+      "repository": "student_023_project",
+      "analysis_date": "2026-02-23T15:36:16.423020",
+      "total_commits": 29,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 25 days",
+          "metric_value": 25
+        },
+        {
+          "type": "procrastination",
+          "severity": "medium",
+          "description": "86% of commits in final third of course",
+          "metric_value": 0.86
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "86% of commits between 11pm-6am",
+          "metric_value": 0.86
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.73
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.73,
+          "average_days_between_commits": 3.1,
+          "longest_gap_days": 25,
+          "total_commits": 29
+        },
+        "commit_quality": {
+          "average_commit_size": 240.3,
+          "small_commits": 7,
+          "medium_commits": 9,
+          "large_commits": 13,
+          "small_commit_ratio": 0.24,
+          "quality_score": 0.7,
+          "message_quality_ratio": 0.62
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.86,
+          "time_distribution": {
+            "late_night": 25,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 4
+          },
+          "procrastination_indicator": 0.86,
+          "final_third_commits": 25
+        },
+        "progress_tracking": {
+          "active_weeks": 9,
+          "active_weeks_ratio": 0.6,
+          "weekly_breakdown": {
+            "0": 1,
+            "1": 1,
+            "5": 1,
+            "7": 1,
+            "10": 4,
+            "11": 4,
+            "12": 4,
+            "13": 7,
+            "14": 6
+          },
+          "trend": "increasing",
+          "average_commits_per_week": 1.9
+        }
+      }
+    },
+    {
+      "student_id": "student_024",
+      "repository": "student_024_project",
+      "analysis_date": "2026-02-23T15:36:16.423020",
+      "total_commits": 23,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 25 days",
+          "metric_value": 25
+        },
+        {
+          "type": "procrastination",
+          "severity": "medium",
+          "description": "78% of commits in final third of course",
+          "metric_value": 0.78
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "52% of commits between 11pm-6am",
+          "metric_value": 0.52
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.68
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.68,
+          "average_days_between_commits": 3.9,
+          "longest_gap_days": 25,
+          "total_commits": 23
+        },
+        "commit_quality": {
+          "average_commit_size": 157.2,
+          "small_commits": 7,
+          "medium_commits": 8,
+          "large_commits": 8,
+          "small_commit_ratio": 0.3,
+          "quality_score": 0.8,
+          "message_quality_ratio": 0.7
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.52,
+          "time_distribution": {
+            "late_night": 12,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 11
+          },
+          "procrastination_indicator": 0.78,
+          "final_third_commits": 18
+        },
+        "progress_tracking": {
+          "active_weeks": 9,
+          "active_weeks_ratio": 0.6,
+          "weekly_breakdown": {
+            "0": 1,
+            "4": 2,
+            "5": 1,
+            "6": 1,
+            "10": 2,
+            "11": 3,
+            "12": 3,
+            "13": 6,
+            "14": 4
+          },
+          "trend": "increasing",
+          "average_commits_per_week": 1.5
+        }
+      }
+    },
+    {
+      "student_id": "student_025",
+      "repository": "student_025_project",
+      "analysis_date": "2026-02-23T15:36:16.423020",
+      "total_commits": 22,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 42 days",
+          "metric_value": 42
+        },
+        {
+          "type": "procrastination",
+          "severity": "medium",
+          "description": "73% of commits in final third of course",
+          "metric_value": 0.73
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "59% of commits between 11pm-6am",
+          "metric_value": 0.59
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.55
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.55,
+          "average_days_between_commits": 4.2,
+          "longest_gap_days": 42,
+          "total_commits": 22
+        },
+        "commit_quality": {
+          "average_commit_size": 205.7,
+          "small_commits": 5,
+          "medium_commits": 8,
+          "large_commits": 9,
+          "small_commit_ratio": 0.23,
+          "quality_score": 0.7,
+          "message_quality_ratio": 0.73
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.59,
+          "time_distribution": {
+            "late_night": 13,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 9
+          },
+          "procrastination_indicator": 0.73,
+          "final_third_commits": 16
+        },
+        "progress_tracking": {
+          "active_weeks": 10,
+          "active_weeks_ratio": 0.67,
+          "weekly_breakdown": {
+            "0": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 2,
+            "10": 3,
+            "11": 3,
+            "12": 3,
+            "13": 4,
+            "14": 3
+          },
+          "trend": "increasing",
+          "average_commits_per_week": 1.5
+        }
+      }
+    },
+    {
+      "student_id": "student_026",
+      "repository": "student_026_project",
+      "analysis_date": "2026-02-23T15:36:16.423422",
+      "total_commits": 19,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 29 days",
+          "metric_value": 29
+        },
+        {
+          "type": "procrastination",
+          "severity": "medium",
+          "description": "79% of commits in final third of course",
+          "metric_value": 0.79
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "79% of commits between 11pm-6am",
+          "metric_value": 0.79
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.58
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.58,
+          "average_days_between_commits": 5.1,
+          "longest_gap_days": 29,
+          "total_commits": 19
+        },
+        "commit_quality": {
+          "average_commit_size": 155.4,
+          "small_commits": 5,
+          "medium_commits": 10,
+          "large_commits": 4,
+          "small_commit_ratio": 0.26,
+          "quality_score": 0.7,
+          "message_quality_ratio": 0.84
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.79,
+          "time_distribution": {
+            "late_night": 15,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 4
+          },
+          "procrastination_indicator": 0.79,
+          "final_third_commits": 15
+        },
+        "progress_tracking": {
+          "active_weeks": 9,
+          "active_weeks_ratio": 0.6,
+          "weekly_breakdown": {
+            "0": 1,
+            "4": 1,
+            "8": 1,
+            "9": 1,
+            "10": 3,
+            "11": 3,
+            "12": 2,
+            "13": 2,
+            "14": 5
+          },
+          "trend": "increasing",
+          "average_commits_per_week": 1.3
+        }
+      }
+    },
+    {
+      "student_id": "student_027",
+      "repository": "student_027_project",
+      "analysis_date": "2026-02-23T15:36:16.423422",
+      "total_commits": 21,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 17 days",
+          "metric_value": 17
+        },
+        {
+          "type": "procrastination",
+          "severity": "medium",
+          "description": "71% of commits in final third of course",
+          "metric_value": 0.71
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "67% of commits between 11pm-6am",
+          "metric_value": 0.67
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.76
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.76,
+          "average_days_between_commits": 4.7,
+          "longest_gap_days": 17,
+          "total_commits": 21
+        },
+        "commit_quality": {
+          "average_commit_size": 183,
+          "small_commits": 6,
+          "medium_commits": 8,
+          "large_commits": 7,
+          "small_commit_ratio": 0.29,
+          "quality_score": 0.7,
+          "message_quality_ratio": 0.67
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.67,
+          "time_distribution": {
+            "late_night": 14,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 7
+          },
+          "procrastination_indicator": 0.71,
+          "final_third_commits": 15
+        },
+        "progress_tracking": {
+          "active_weeks": 11,
+          "active_weeks_ratio": 0.73,
+          "weekly_breakdown": {
+            "0": 1,
+            "1": 1,
+            "3": 1,
+            "5": 1,
+            "7": 1,
+            "9": 1,
+            "10": 3,
+            "11": 3,
+            "12": 4,
+            "13": 3,
+            "14": 2
+          },
+          "trend": "increasing",
+          "average_commits_per_week": 1.4
+        }
+      }
+    },
+    {
+      "student_id": "student_028",
+      "repository": "student_028_project",
+      "analysis_date": "2026-02-23T15:36:16.423422",
+      "total_commits": 24,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 39 days",
+          "metric_value": 39
+        },
+        {
+          "type": "procrastination",
+          "severity": "medium",
+          "description": "75% of commits in final third of course",
+          "metric_value": 0.75
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "54% of commits between 11pm-6am",
+          "metric_value": 0.54
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.6
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.6,
+          "average_days_between_commits": 3.9,
+          "longest_gap_days": 39,
+          "total_commits": 24
+        },
+        "commit_quality": {
+          "average_commit_size": 167.5,
+          "small_commits": 7,
+          "medium_commits": 9,
+          "large_commits": 8,
+          "small_commit_ratio": 0.29,
+          "quality_score": 0.7,
+          "message_quality_ratio": 0.75
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.54,
+          "time_distribution": {
+            "late_night": 13,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 11
+          },
+          "procrastination_indicator": 0.75,
+          "final_third_commits": 18
+        },
+        "progress_tracking": {
+          "active_weeks": 9,
+          "active_weeks_ratio": 0.6,
+          "weekly_breakdown": {
+            "0": 1,
+            "2": 2,
+            "3": 2,
+            "4": 1,
+            "10": 4,
+            "11": 3,
+            "12": 3,
+            "13": 5,
+            "14": 3
+          },
+          "trend": "increasing",
+          "average_commits_per_week": 1.6
+        }
+      }
+    },
+    {
+      "student_id": "student_029",
+      "repository": "student_029_project",
+      "analysis_date": "2026-02-23T15:36:16.423726",
+      "total_commits": 18,
+      "flags": [
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "56% of commits between 11pm-6am",
+          "metric_value": 0.56
+        }
+      ],
+      "severity": "low",
+      "recommendations": [
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "moderate",
+          "consistency_score": 0.94,
+          "average_days_between_commits": 4.5,
+          "longest_gap_days": 9,
+          "total_commits": 18
+        },
+        "commit_quality": {
+          "average_commit_size": 26.4,
+          "small_commits": 18,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 0.89
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.56,
+          "time_distribution": {
+            "late_night": 10,
+            "morning": 1,
+            "afternoon": 7,
+            "evening": 0
+          },
+          "procrastination_indicator": 0.22,
+          "final_third_commits": 4
+        },
+        "progress_tracking": {
+          "active_weeks": 12,
+          "active_weeks_ratio": 0.8,
+          "weekly_breakdown": {
+            "0": 2,
+            "1": 2,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 1,
+            "6": 1,
+            "7": 2,
+            "8": 1,
+            "10": 1,
+            "11": 2,
+            "12": 1
+          },
+          "trend": "stable",
+          "average_commits_per_week": 1.2
+        }
+      }
+    },
+    {
+      "student_id": "student_030",
+      "repository": "student_030_project",
+      "analysis_date": "2026-02-23T15:36:16.423726",
+      "total_commits": 19,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 19 days",
+          "metric_value": 19
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.78
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.78,
+          "average_days_between_commits": 5.2,
+          "longest_gap_days": 19,
+          "total_commits": 19
+        },
+        "commit_quality": {
+          "average_commit_size": 21.5,
+          "small_commits": 19,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 0.89
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.37,
+          "time_distribution": {
+            "late_night": 7,
+            "morning": 1,
+            "afternoon": 11,
+            "evening": 0
+          },
+          "procrastination_indicator": 0.11,
+          "final_third_commits": 2
+        },
+        "progress_tracking": {
+          "active_weeks": 11,
+          "active_weeks_ratio": 0.73,
+          "weekly_breakdown": {
+            "0": 3,
+            "1": 2,
+            "2": 3,
+            "3": 2,
+            "4": 2,
+            "5": 1,
+            "7": 2,
+            "8": 1,
+            "9": 1,
+            "12": 1,
+            "14": 1
+          },
+          "trend": "stable",
+          "average_commits_per_week": 1.3
+        }
+      }
+    },
+    {
+      "student_id": "student_031",
+      "repository": "student_031_project",
+      "analysis_date": "2026-02-23T15:36:16.423726",
+      "total_commits": 17,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 20 days",
+          "metric_value": 20
+        },
+        {
+          "type": "declining_activity",
+          "severity": "medium",
+          "description": "Commit activity has declined significantly over time",
+          "metric_value": "declining"
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.78
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udcc9 Check in with student - activity declining, may need support or clarification",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.78,
+          "average_days_between_commits": 4.6,
+          "longest_gap_days": 20,
+          "total_commits": 17
+        },
+        "commit_quality": {
+          "average_commit_size": 21.5,
+          "small_commits": 17,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 0.76
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.29,
+          "time_distribution": {
+            "late_night": 5,
+            "morning": 1,
+            "afternoon": 11,
+            "evening": 0
+          },
+          "procrastination_indicator": 0.12,
+          "final_third_commits": 2
+        },
+        "progress_tracking": {
+          "active_weeks": 9,
+          "active_weeks_ratio": 0.6,
+          "weekly_breakdown": {
+            "0": 3,
+            "1": 2,
+            "2": 3,
+            "3": 2,
+            "4": 3,
+            "5": 1,
+            "8": 1,
+            "10": 1,
+            "11": 1
+          },
+          "trend": "declining",
+          "average_commits_per_week": 1.1
+        }
+      }
+    },
+    {
+      "student_id": "student_032",
+      "repository": "student_032_project",
+      "analysis_date": "2026-02-23T15:36:16.423726",
+      "total_commits": 14,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 19 days",
+          "metric_value": 19
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.71
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.71,
+          "average_days_between_commits": 7,
+          "longest_gap_days": 19,
+          "total_commits": 14
+        },
+        "commit_quality": {
+          "average_commit_size": 23.1,
+          "small_commits": 14,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 0.79
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.36,
+          "time_distribution": {
+            "late_night": 5,
+            "morning": 1,
+            "afternoon": 8,
+            "evening": 0
+          },
+          "procrastination_indicator": 0.14,
+          "final_third_commits": 2
+        },
+        "progress_tracking": {
+          "active_weeks": 10,
+          "active_weeks_ratio": 0.67,
+          "weekly_breakdown": {
+            "0": 3,
+            "1": 1,
+            "2": 2,
+            "3": 2,
+            "4": 1,
+            "6": 1,
+            "8": 1,
+            "9": 1,
+            "11": 1,
+            "14": 1
+          },
+          "trend": "stable",
+          "average_commits_per_week": 0.9
+        }
+      }
+    },
+    {
+      "student_id": "student_033",
+      "repository": "student_033_project",
+      "analysis_date": "2026-02-23T15:36:16.423726",
+      "total_commits": 17,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 25 days",
+          "metric_value": 25
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.74
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.74,
+          "average_days_between_commits": 5.7,
+          "longest_gap_days": 25,
+          "total_commits": 17
+        },
+        "commit_quality": {
+          "average_commit_size": 21.6,
+          "small_commits": 17,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 0.76
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.47,
+          "time_distribution": {
+            "late_night": 8,
+            "morning": 1,
+            "afternoon": 8,
+            "evening": 0
+          },
+          "procrastination_indicator": 0.12,
+          "final_third_commits": 2
+        },
+        "progress_tracking": {
+          "active_weeks": 11,
+          "active_weeks_ratio": 0.73,
+          "weekly_breakdown": {
+            "0": 3,
+            "1": 1,
+            "2": 2,
+            "3": 2,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 3,
+            "8": 1,
+            "12": 1,
+            "14": 1
+          },
+          "trend": "stable",
+          "average_commits_per_week": 1.1
+        }
+      }
+    },
+    {
+      "student_id": "student_034",
+      "repository": "student_034_project",
+      "analysis_date": "2026-02-23T15:36:16.423726",
+      "total_commits": 15,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 36 days",
+          "metric_value": 36
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.56
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.56,
+          "average_days_between_commits": 6.1,
+          "longest_gap_days": 36,
+          "total_commits": 15
+        },
+        "commit_quality": {
+          "average_commit_size": 20.7,
+          "small_commits": 15,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 0.8
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.4,
+          "time_distribution": {
+            "late_night": 6,
+            "morning": 0,
+            "afternoon": 9,
+            "evening": 0
+          },
+          "procrastination_indicator": 0.2,
+          "final_third_commits": 3
+        },
+        "progress_tracking": {
+          "active_weeks": 9,
+          "active_weeks_ratio": 0.6,
+          "weekly_breakdown": {
+            "0": 3,
+            "1": 1,
+            "2": 2,
+            "3": 2,
+            "4": 1,
+            "9": 3,
+            "11": 1,
+            "12": 1,
+            "13": 1
+          },
+          "trend": "stable",
+          "average_commits_per_week": 1.0
+        }
+      }
+    },
+    {
+      "student_id": "student_035",
+      "repository": "student_035_project",
+      "analysis_date": "2026-02-23T15:36:16.423726",
+      "total_commits": 16,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 23 days",
+          "metric_value": 23
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.72
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.72,
+          "average_days_between_commits": 5.9,
+          "longest_gap_days": 23,
+          "total_commits": 16
+        },
+        "commit_quality": {
+          "average_commit_size": 23.5,
+          "small_commits": 16,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 0.88
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.5,
+          "time_distribution": {
+            "late_night": 8,
+            "morning": 1,
+            "afternoon": 7,
+            "evening": 0
+          },
+          "procrastination_indicator": 0.12,
+          "final_third_commits": 2
+        },
+        "progress_tracking": {
+          "active_weeks": 11,
+          "active_weeks_ratio": 0.73,
+          "weekly_breakdown": {
+            "0": 2,
+            "1": 2,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 2,
+            "7": 1,
+            "8": 1,
+            "9": 1,
+            "10": 1,
+            "13": 1
+          },
+          "trend": "stable",
+          "average_commits_per_week": 1.1
+        }
+      }
+    },
+    {
+      "student_id": "student_036",
+      "repository": "student_036_project",
+      "analysis_date": "2026-02-23T15:36:16.423726",
+      "total_commits": 22,
+      "flags": [
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        }
+      ],
+      "severity": "low",
+      "recommendations": [
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "moderate",
+          "consistency_score": 0.9,
+          "average_days_between_commits": 3.4,
+          "longest_gap_days": 13,
+          "total_commits": 22
+        },
+        "commit_quality": {
+          "average_commit_size": 25.7,
+          "small_commits": 22,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 0.77
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.45,
+          "time_distribution": {
+            "late_night": 10,
+            "morning": 1,
+            "afternoon": 11,
+            "evening": 0
+          },
+          "procrastination_indicator": 0.18,
+          "final_third_commits": 4
+        },
+        "progress_tracking": {
+          "active_weeks": 10,
+          "active_weeks_ratio": 0.67,
+          "weekly_breakdown": {
+            "0": 3,
+            "1": 2,
+            "2": 3,
+            "3": 2,
+            "4": 2,
+            "5": 3,
+            "7": 1,
+            "9": 2,
+            "10": 3,
+            "11": 1
+          },
+          "trend": "stable",
+          "average_commits_per_week": 1.5
+        }
+      }
+    },
+    {
+      "student_id": "student_037",
+      "repository": "student_037_project",
+      "analysis_date": "2026-02-23T15:36:16.424733",
+      "total_commits": 17,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 18 days",
+          "metric_value": 18
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.85
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.85,
+          "average_days_between_commits": 5.1,
+          "longest_gap_days": 18,
+          "total_commits": 17
+        },
+        "commit_quality": {
+          "average_commit_size": 21.5,
+          "small_commits": 17,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 0.76
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.47,
+          "time_distribution": {
+            "late_night": 8,
+            "morning": 1,
+            "afternoon": 8,
+            "evening": 0
+          },
+          "procrastination_indicator": 0.24,
+          "final_third_commits": 4
+        },
+        "progress_tracking": {
+          "active_weeks": 11,
+          "active_weeks_ratio": 0.73,
+          "weekly_breakdown": {
+            "0": 3,
+            "1": 1,
+            "2": 2,
+            "3": 2,
+            "4": 1,
+            "5": 1,
+            "6": 2,
+            "9": 1,
+            "10": 1,
+            "11": 2,
+            "12": 1
+          },
+          "trend": "stable",
+          "average_commits_per_week": 1.1
+        }
+      }
+    },
+    {
+      "student_id": "student_038",
+      "repository": "student_038_project",
+      "analysis_date": "2026-02-23T15:36:16.424733",
+      "total_commits": 17,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 19 days",
+          "metric_value": 19
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.81
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.81,
+          "average_days_between_commits": 5.2,
+          "longest_gap_days": 19,
+          "total_commits": 17
+        },
+        "commit_quality": {
+          "average_commit_size": 21.9,
+          "small_commits": 17,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 0.94
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.47,
+          "time_distribution": {
+            "late_night": 8,
+            "morning": 1,
+            "afternoon": 8,
+            "evening": 0
+          },
+          "procrastination_indicator": 0.18,
+          "final_third_commits": 3
+        },
+        "progress_tracking": {
+          "active_weeks": 11,
+          "active_weeks_ratio": 0.73,
+          "weekly_breakdown": {
+            "0": 3,
+            "1": 1,
+            "2": 2,
+            "3": 2,
+            "4": 1,
+            "5": 1,
+            "7": 2,
+            "8": 1,
+            "9": 1,
+            "10": 2,
+            "13": 1
+          },
+          "trend": "stable",
+          "average_commits_per_week": 1.1
+        }
+      }
+    },
+    {
+      "student_id": "student_039",
+      "repository": "student_039_project",
+      "analysis_date": "2026-02-23T15:36:16.424733",
+      "total_commits": 2,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 84 days",
+          "metric_value": 84
+        },
+        {
+          "type": "low_progress",
+          "severity": "high",
+          "description": "Active in only 2 weeks (13%)",
+          "metric_value": 0.13
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.5
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.5,
+          "average_days_between_commits": 84,
+          "longest_gap_days": 84,
+          "total_commits": 2
+        },
+        "commit_quality": {
+          "average_commit_size": 38,
+          "small_commits": 2,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 1.0
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.5,
+          "time_distribution": {
+            "late_night": 1,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 1
+          },
+          "procrastination_indicator": 0.5,
+          "final_third_commits": 1
+        },
+        "progress_tracking": {
+          "active_weeks": 2,
+          "active_weeks_ratio": 0.13,
+          "weekly_breakdown": {
+            "0": 1,
+            "12": 1
+          },
+          "trend": "insufficient_data",
+          "average_commits_per_week": 0.1
+        }
+      }
+    },
+    {
+      "student_id": "student_040",
+      "repository": "student_040_project",
+      "analysis_date": "2026-02-23T15:36:16.424733",
+      "total_commits": 4,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 67 days",
+          "metric_value": 67
+        },
+        {
+          "type": "low_progress",
+          "severity": "high",
+          "description": "Active in only 4 weeks (27%)",
+          "metric_value": 0.27
+        },
+        {
+          "type": "procrastination",
+          "severity": "medium",
+          "description": "75% of commits in final third of course",
+          "metric_value": 0.75
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "75% of commits between 11pm-6am",
+          "metric_value": 0.75
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.08
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.08,
+          "average_days_between_commits": 28.3,
+          "longest_gap_days": 67,
+          "total_commits": 4
+        },
+        "commit_quality": {
+          "average_commit_size": 20.2,
+          "small_commits": 4,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 0.75
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.75,
+          "time_distribution": {
+            "late_night": 3,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 1
+          },
+          "procrastination_indicator": 0.75,
+          "final_third_commits": 3
+        },
+        "progress_tracking": {
+          "active_weeks": 4,
+          "active_weeks_ratio": 0.27,
+          "weekly_breakdown": {
+            "1": 1,
+            "10": 1,
+            "11": 1,
+            "13": 1
+          },
+          "trend": "stable",
+          "average_commits_per_week": 0.3
+        }
+      }
+    },
+    {
+      "student_id": "student_041",
+      "repository": "student_041_project",
+      "analysis_date": "2026-02-23T15:36:16.424733",
+      "total_commits": 2,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 85 days",
+          "metric_value": 85
+        },
+        {
+          "type": "low_progress",
+          "severity": "high",
+          "description": "Active in only 2 weeks (13%)",
+          "metric_value": 0.13
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.5
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.5,
+          "average_days_between_commits": 85,
+          "longest_gap_days": 85,
+          "total_commits": 2
+        },
+        "commit_quality": {
+          "average_commit_size": 33,
+          "small_commits": 2,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 1.0
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.5,
+          "time_distribution": {
+            "late_night": 1,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 1
+          },
+          "procrastination_indicator": 0.5,
+          "final_third_commits": 1
+        },
+        "progress_tracking": {
+          "active_weeks": 2,
+          "active_weeks_ratio": 0.13,
+          "weekly_breakdown": {
+            "0": 1,
+            "13": 1
+          },
+          "trend": "insufficient_data",
+          "average_commits_per_week": 0.1
+        }
+      }
+    },
+    {
+      "student_id": "student_042",
+      "repository": "student_042_project",
+      "analysis_date": "2026-02-23T15:36:16.424733",
+      "total_commits": 2,
+      "flags": [
+        {
+          "type": "low_progress",
+          "severity": "high",
+          "description": "Active in only 2 weeks (13%)",
+          "metric_value": 0.13
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        }
+      ],
+      "severity": "medium",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "sporadic",
+          "consistency_score": 0.5,
+          "average_days_between_commits": 13,
+          "longest_gap_days": 13,
+          "total_commits": 2
+        },
+        "commit_quality": {
+          "average_commit_size": 22.5,
+          "small_commits": 2,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 1.0
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.5,
+          "time_distribution": {
+            "late_night": 1,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 1
+          },
+          "procrastination_indicator": 0.0,
+          "final_third_commits": 0
+        },
+        "progress_tracking": {
+          "active_weeks": 2,
+          "active_weeks_ratio": 0.13,
+          "weekly_breakdown": {
+            "0": 1,
+            "2": 1
+          },
+          "trend": "insufficient_data",
+          "average_commits_per_week": 0.1
+        }
+      }
+    },
+    {
+      "student_id": "student_043",
+      "repository": "student_043_project",
+      "analysis_date": "2026-02-23T15:36:16.424733",
+      "total_commits": 4,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 46 days",
+          "metric_value": 46
+        },
+        {
+          "type": "low_progress",
+          "severity": "high",
+          "description": "Active in only 3 weeks (20%)",
+          "metric_value": 0.2
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "75% of commits between 11pm-6am",
+          "metric_value": 0.75
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.16
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.16,
+          "average_days_between_commits": 21,
+          "longest_gap_days": 46,
+          "total_commits": 4
+        },
+        "commit_quality": {
+          "average_commit_size": 24,
+          "small_commits": 4,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 0.5
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.75,
+          "time_distribution": {
+            "late_night": 3,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 1
+          },
+          "procrastination_indicator": 0.0,
+          "final_third_commits": 0
+        },
+        "progress_tracking": {
+          "active_weeks": 3,
+          "active_weeks_ratio": 0.2,
+          "weekly_breakdown": {
+            "0": 1,
+            "2": 2,
+            "9": 1
+          },
+          "trend": "stable",
+          "average_commits_per_week": 0.3
+        }
+      }
+    },
+    {
+      "student_id": "student_044",
+      "repository": "student_044_project",
+      "analysis_date": "2026-02-23T15:36:16.424733",
+      "total_commits": 3,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 64 days",
+          "metric_value": 64
+        },
+        {
+          "type": "low_progress",
+          "severity": "high",
+          "description": "Active in only 3 weeks (20%)",
+          "metric_value": 0.2
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "67% of commits between 11pm-6am",
+          "metric_value": 0.67
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.08
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.08,
+          "average_days_between_commits": 40.5,
+          "longest_gap_days": 64,
+          "total_commits": 3
+        },
+        "commit_quality": {
+          "average_commit_size": 25.7,
+          "small_commits": 3,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 1.0
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.67,
+          "time_distribution": {
+            "late_night": 2,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 1
+          },
+          "procrastination_indicator": 0.33,
+          "final_third_commits": 1
+        },
+        "progress_tracking": {
+          "active_weeks": 3,
+          "active_weeks_ratio": 0.2,
+          "weekly_breakdown": {
+            "0": 1,
+            "9": 1,
+            "12": 1
+          },
+          "trend": "stable",
+          "average_commits_per_week": 0.2
+        }
+      }
+    },
+    {
+      "student_id": "student_045",
+      "repository": "student_045_project",
+      "analysis_date": "2026-02-23T15:36:16.424733",
+      "total_commits": 3,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 46 days",
+          "metric_value": 46
+        },
+        {
+          "type": "low_progress",
+          "severity": "high",
+          "description": "Active in only 3 weeks (20%)",
+          "metric_value": 0.2
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "67% of commits between 11pm-6am",
+          "metric_value": 0.67
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.96
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.96,
+          "average_days_between_commits": 44.5,
+          "longest_gap_days": 46,
+          "total_commits": 3
+        },
+        "commit_quality": {
+          "average_commit_size": 11,
+          "small_commits": 3,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 0.67
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.67,
+          "time_distribution": {
+            "late_night": 2,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 1
+          },
+          "procrastination_indicator": 0.33,
+          "final_third_commits": 1
+        },
+        "progress_tracking": {
+          "active_weeks": 3,
+          "active_weeks_ratio": 0.2,
+          "weekly_breakdown": {
+            "0": 1,
+            "7": 1,
+            "13": 1
+          },
+          "trend": "stable",
+          "average_commits_per_week": 0.2
+        }
+      }
+    },
+    {
+      "student_id": "student_046",
+      "repository": "student_046_project",
+      "analysis_date": "2026-02-23T15:36:16.424733",
+      "total_commits": 3,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 47 days",
+          "metric_value": 47
+        },
+        {
+          "type": "low_progress",
+          "severity": "high",
+          "description": "Active in only 3 weeks (20%)",
+          "metric_value": 0.2
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "67% of commits between 11pm-6am",
+          "metric_value": 0.67
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.33
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.33,
+          "average_days_between_commits": 37,
+          "longest_gap_days": 47,
+          "total_commits": 3
+        },
+        "commit_quality": {
+          "average_commit_size": 22.7,
+          "small_commits": 3,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 0.67
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.67,
+          "time_distribution": {
+            "late_night": 2,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 1
+          },
+          "procrastination_indicator": 0.33,
+          "final_third_commits": 1
+        },
+        "progress_tracking": {
+          "active_weeks": 3,
+          "active_weeks_ratio": 0.2,
+          "weekly_breakdown": {
+            "0": 1,
+            "4": 1,
+            "11": 1
+          },
+          "trend": "stable",
+          "average_commits_per_week": 0.2
+        }
+      }
+    },
+    {
+      "student_id": "student_047",
+      "repository": "student_047_project",
+      "analysis_date": "2026-02-23T15:36:16.424733",
+      "total_commits": 4,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 26 days",
+          "metric_value": 26
+        },
+        {
+          "type": "low_progress",
+          "severity": "high",
+          "description": "Active in only 4 weeks (27%)",
+          "metric_value": 0.27
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "75% of commits between 11pm-6am",
+          "metric_value": 0.75
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.88
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.88,
+          "average_days_between_commits": 23,
+          "longest_gap_days": 26,
+          "total_commits": 4
+        },
+        "commit_quality": {
+          "average_commit_size": 22.8,
+          "small_commits": 4,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 0.5
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.75,
+          "time_distribution": {
+            "late_night": 3,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 1
+          },
+          "procrastination_indicator": 0.25,
+          "final_third_commits": 1
+        },
+        "progress_tracking": {
+          "active_weeks": 4,
+          "active_weeks_ratio": 0.27,
+          "weekly_breakdown": {
+            "0": 1,
+            "3": 1,
+            "6": 1,
+            "10": 1
+          },
+          "trend": "stable",
+          "average_commits_per_week": 0.3
+        }
+      }
+    },
+    {
+      "student_id": "student_048",
+      "repository": "student_048_project",
+      "analysis_date": "2026-02-23T15:36:16.424733",
+      "total_commits": 4,
+      "flags": [
+        {
+          "type": "inactivity",
+          "severity": "high",
+          "description": "Longest gap between commits: 29 days",
+          "metric_value": 29
+        },
+        {
+          "type": "low_progress",
+          "severity": "high",
+          "description": "Active in only 4 weeks (27%)",
+          "metric_value": 0.27
+        },
+        {
+          "type": "minimal_progress",
+          "severity": "low",
+          "description": "100% of commits are very small",
+          "metric_value": 1.0
+        },
+        {
+          "type": "burnout_risk",
+          "severity": "low",
+          "description": "75% of commits between 11pm-6am",
+          "metric_value": 0.75
+        },
+        {
+          "type": "irregular_pattern",
+          "severity": "medium",
+          "description": "Highly irregular commit pattern detected",
+          "metric_value": 0.46
+        }
+      ],
+      "severity": "high",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ],
+      "metrics": {
+        "activity_pattern": {
+          "pattern": "irregular",
+          "consistency_score": 0.46,
+          "average_days_between_commits": 17,
+          "longest_gap_days": 29,
+          "total_commits": 4
+        },
+        "commit_quality": {
+          "average_commit_size": 27.2,
+          "small_commits": 4,
+          "medium_commits": 0,
+          "large_commits": 0,
+          "small_commit_ratio": 1.0,
+          "quality_score": 0.4,
+          "message_quality_ratio": 1.0
+        },
+        "temporal_analysis": {
+          "late_night_work_ratio": 0.75,
+          "time_distribution": {
+            "late_night": 3,
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 1
+          },
+          "procrastination_indicator": 0.0,
+          "final_third_commits": 0
+        },
+        "progress_tracking": {
+          "active_weeks": 4,
+          "active_weeks_ratio": 0.27,
+          "weekly_breakdown": {
+            "1": 1,
+            "5": 1,
+            "7": 1,
+            "9": 1
+          },
+          "trend": "stable",
+          "average_commits_per_week": 0.3
+        }
+      }
+    }
+  ],
+  "team_analyses": [
+    {
+      "team_id": "team_0",
+      "repository": "team_0_project",
+      "members": [
+        "team_0_member_0",
+        "team_0_member_1",
+        "team_0_member_2",
+        "team_0_member_3"
+      ],
+      "total_commits": 81,
+      "member_contributions": {
+        "team_0_member_0": {
+          "commit_count": 30,
+          "commit_percentage": 37.03703703703704,
+          "total_changes": 5922,
+          "average_commit_size": 197.4
+        },
+        "team_0_member_1": {
+          "commit_count": 19,
+          "commit_percentage": 23.456790123456788,
+          "total_changes": 2765,
+          "average_commit_size": 145.52631578947367
+        },
+        "team_0_member_2": {
+          "commit_count": 24,
+          "commit_percentage": 29.629629629629626,
+          "total_changes": 2691,
+          "average_commit_size": 112.125
+        },
+        "team_0_member_3": {
+          "commit_count": 8,
+          "commit_percentage": 9.876543209876543,
+          "total_changes": 540,
+          "average_commit_size": 67.5
+        }
+      },
+      "collaboration_metrics": {
+        "collaborative_days": 15,
+        "total_active_days": 57,
+        "collaboration_ratio": 0.2631578947368421
+      },
+      "flags": [
+        {
+          "type": "low_contributor",
+          "severity": "medium",
+          "description": "At least one member contributing only 10% of commits"
+        }
+      ],
+      "recommendations": [
+        "\ud83d\udc65 Check in with low-contributing member - may need support or task clarification"
+      ]
+    },
+    {
+      "team_id": "team_1",
+      "repository": "team_1_project",
+      "members": [
+        "team_1_member_0",
+        "team_1_member_1",
+        "team_1_member_2",
+        "team_1_member_3"
+      ],
+      "total_commits": 83,
+      "member_contributions": {
+        "team_1_member_0": {
+          "commit_count": 35,
+          "commit_percentage": 42.168674698795186,
+          "total_changes": 7701,
+          "average_commit_size": 220.02857142857144
+        },
+        "team_1_member_1": {
+          "commit_count": 17,
+          "commit_percentage": 20.481927710843372,
+          "total_changes": 2183,
+          "average_commit_size": 128.41176470588235
+        },
+        "team_1_member_2": {
+          "commit_count": 21,
+          "commit_percentage": 25.301204819277107,
+          "total_changes": 4521,
+          "average_commit_size": 215.28571428571428
+        },
+        "team_1_member_3": {
+          "commit_count": 10,
+          "commit_percentage": 12.048192771084338,
+          "total_changes": 1397,
+          "average_commit_size": 139.7
+        }
+      },
+      "collaboration_metrics": {
+        "collaborative_days": 15,
+        "total_active_days": 59,
+        "collaboration_ratio": 0.2542372881355932
+      },
+      "flags": [],
+      "recommendations": [
+        "\u2705 Team contributions appear balanced - monitor for changes"
+      ]
+    },
+    {
+      "team_id": "team_2",
+      "repository": "team_2_project",
+      "members": [
+        "team_2_member_0",
+        "team_2_member_1",
+        "team_2_member_2",
+        "team_2_member_3"
+      ],
+      "total_commits": 68,
+      "member_contributions": {
+        "team_2_member_0": {
+          "commit_count": 28,
+          "commit_percentage": 41.17647058823529,
+          "total_changes": 4342,
+          "average_commit_size": 155.07142857142858
+        },
+        "team_2_member_1": {
+          "commit_count": 18,
+          "commit_percentage": 26.47058823529412,
+          "total_changes": 2613,
+          "average_commit_size": 145.16666666666666
+        },
+        "team_2_member_2": {
+          "commit_count": 17,
+          "commit_percentage": 25.0,
+          "total_changes": 2892,
+          "average_commit_size": 170.11764705882354
+        },
+        "team_2_member_3": {
+          "commit_count": 5,
+          "commit_percentage": 7.352941176470589,
+          "total_changes": 829,
+          "average_commit_size": 165.8
+        }
+      },
+      "collaboration_metrics": {
+        "collaborative_days": 12,
+        "total_active_days": 48,
+        "collaboration_ratio": 0.25
+      },
+      "flags": [
+        {
+          "type": "low_contributor",
+          "severity": "medium",
+          "description": "At least one member contributing only 7% of commits"
+        }
+      ],
+      "recommendations": [
+        "\ud83d\udc65 Check in with low-contributing member - may need support or task clarification"
+      ]
+    },
+    {
+      "team_id": "team_3",
+      "repository": "team_3_project",
+      "members": [
+        "team_3_member_0",
+        "team_3_member_1",
+        "team_3_member_2"
+      ],
+      "total_commits": 54,
+      "member_contributions": {
+        "team_3_member_0": {
+          "commit_count": 30,
+          "commit_percentage": 55.55555555555556,
+          "total_changes": 5980,
+          "average_commit_size": 199.33333333333334
+        },
+        "team_3_member_1": {
+          "commit_count": 16,
+          "commit_percentage": 29.629629629629626,
+          "total_changes": 2516,
+          "average_commit_size": 157.25
+        },
+        "team_3_member_2": {
+          "commit_count": 8,
+          "commit_percentage": 14.814814814814813,
+          "total_changes": 1365,
+          "average_commit_size": 170.625
+        }
+      },
+      "collaboration_metrics": {
+        "collaborative_days": 3,
+        "total_active_days": 45,
+        "collaboration_ratio": 0.06666666666666667
+      },
+      "flags": [],
+      "recommendations": [
+        "\u2705 Team contributions appear balanced - monitor for changes"
+      ]
+    },
+    {
+      "team_id": "team_4",
+      "repository": "team_4_project",
+      "members": [
+        "team_4_member_0",
+        "team_4_member_1",
+        "team_4_member_2",
+        "team_4_member_3"
+      ],
+      "total_commits": 78,
+      "member_contributions": {
+        "team_4_member_0": {
+          "commit_count": 30,
+          "commit_percentage": 38.46153846153847,
+          "total_changes": 2963,
+          "average_commit_size": 98.76666666666667
+        },
+        "team_4_member_1": {
+          "commit_count": 20,
+          "commit_percentage": 25.64102564102564,
+          "total_changes": 2965,
+          "average_commit_size": 148.25
+        },
+        "team_4_member_2": {
+          "commit_count": 22,
+          "commit_percentage": 28.205128205128204,
+          "total_changes": 4193,
+          "average_commit_size": 190.5909090909091
+        },
+        "team_4_member_3": {
+          "commit_count": 6,
+          "commit_percentage": 7.6923076923076925,
+          "total_changes": 864,
+          "average_commit_size": 144.0
+        }
+      },
+      "collaboration_metrics": {
+        "collaborative_days": 13,
+        "total_active_days": 56,
+        "collaboration_ratio": 0.23214285714285715
+      },
+      "flags": [
+        {
+          "type": "low_contributor",
+          "severity": "medium",
+          "description": "At least one member contributing only 8% of commits"
+        }
+      ],
+      "recommendations": [
+        "\ud83d\udc65 Check in with low-contributing member - may need support or task clarification"
+      ]
+    }
+  ],
+  "priority_interventions": [
+    {
+      "rank": 1,
+      "student_id": "student_040",
+      "repository": "student_040_project",
+      "severity": "high",
+      "flag_count": 6,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 2,
+      "student_id": "student_043",
+      "repository": "student_043_project",
+      "severity": "high",
+      "flag_count": 5,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 3,
+      "student_id": "student_044",
+      "repository": "student_044_project",
+      "severity": "high",
+      "flag_count": 5,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 4,
+      "student_id": "student_045",
+      "repository": "student_045_project",
+      "severity": "high",
+      "flag_count": 5,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 5,
+      "student_id": "student_046",
+      "repository": "student_046_project",
+      "severity": "high",
+      "flag_count": 5,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 6,
+      "student_id": "student_047",
+      "repository": "student_047_project",
+      "severity": "high",
+      "flag_count": 5,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 7,
+      "student_id": "student_048",
+      "repository": "student_048_project",
+      "severity": "high",
+      "flag_count": 5,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 8,
+      "student_id": "student_017",
+      "repository": "student_017_project",
+      "severity": "high",
+      "flag_count": 4,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 9,
+      "student_id": "student_018",
+      "repository": "student_018_project",
+      "severity": "high",
+      "flag_count": 4,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 10,
+      "student_id": "student_019",
+      "repository": "student_019_project",
+      "severity": "high",
+      "flag_count": 4,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 11,
+      "student_id": "student_020",
+      "repository": "student_020_project",
+      "severity": "high",
+      "flag_count": 4,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 12,
+      "student_id": "student_021",
+      "repository": "student_021_project",
+      "severity": "high",
+      "flag_count": 4,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 13,
+      "student_id": "student_023",
+      "repository": "student_023_project",
+      "severity": "high",
+      "flag_count": 4,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 14,
+      "student_id": "student_024",
+      "repository": "student_024_project",
+      "severity": "high",
+      "flag_count": 4,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 15,
+      "student_id": "student_025",
+      "repository": "student_025_project",
+      "severity": "high",
+      "flag_count": 4,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 16,
+      "student_id": "student_026",
+      "repository": "student_026_project",
+      "severity": "high",
+      "flag_count": 4,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 17,
+      "student_id": "student_027",
+      "repository": "student_027_project",
+      "severity": "high",
+      "flag_count": 4,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 18,
+      "student_id": "student_028",
+      "repository": "student_028_project",
+      "severity": "high",
+      "flag_count": 4,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\u23f0 Encourage earlier start on work - most progress happening near deadline",
+        "\ud83d\udca4 Discuss time management - excessive late-night work may lead to burnout",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 19,
+      "student_id": "student_031",
+      "repository": "student_031_project",
+      "severity": "high",
+      "flag_count": 4,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udcc9 Check in with student - activity declining, may need support or clarification",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    },
+    {
+      "rank": 20,
+      "student_id": "student_039",
+      "repository": "student_039_project",
+      "severity": "high",
+      "flag_count": 4,
+      "primary_concern": "inactivity",
+      "recommendations": [
+        "\u26a0\ufe0f Reach out immediately - student may have dropped or be struggling",
+        "\ud83d\udd0d Review commit content - many small commits may indicate confusion or lack of direction",
+        "\ud83d\udcc5 Suggest setting regular work schedule to maintain steady progress"
+      ]
+    }
+  ]
+}
